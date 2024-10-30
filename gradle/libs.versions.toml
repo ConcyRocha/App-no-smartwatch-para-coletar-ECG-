@@ -1,0 +1,55 @@
+[versions]
+agp = "8.6.0"
+concurrentFutures = "1.2.0"
+datastorePreferences = "1.1.1"
+guava = "31.1-android"
+healthServicesClient = "1.1.0-alpha04"
+hiltAndroidCompiler = "2.49"
+hiltNavigationFragment = "1.2.0"
+kotlin = "1.9.0"
+playServicesWearable = "18.2.0"
+lifecycleRuntimeKtx = "2.6.1"
+activityCompose = "1.9.3"
+composeBom = "2024.04.01"
+composeMaterial = "1.4.0"
+horologist = "0.6.20"
+hilt = "2.49"
+datastoreCoreAndroid = "1.1.1"
+hiltCommon = "1.2.0"
+workRuntimeKtx = "2.9.1"
+hiltWork = "1.2.0"
+lifecycleService = "2.8.6"
+
+[libraries]
+concurrent-futures = { module = "androidx.concurrent:concurrent-futures", version.ref = "concurrentFutures" }
+concurrent-futures-ktx = { module = "androidx.concurrent:concurrent-futures-ktx", version.ref = "concurrentFutures" }
+datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+health-services-client = { module = "androidx.health:health-services-client", version.ref = "healthServicesClient" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+hilt-navigation-fragment = { module = "androidx.hilt:hilt-navigation-fragment", version.ref = "hiltNavigationFragment" }
+play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-material = { group = "androidx.wear.compose", name = "compose-material", version.ref = "composeMaterial" }
+compose-foundation = { group = "androidx.wear.compose", name = "compose-foundation" }
+horologist-compose-layout = { module = "com.google.android.horologist:horologist-compose-layout", version.ref = "horologist" }
+horologist-compose-material = { module = "com.google.android.horologist:horologist-compose-material", version.ref = "horologist" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+datastore-core-android = { group = "androidx.datastore", name = "datastore-core-android", version.ref = "datastoreCoreAndroid" }
+hilt-common = { group = "androidx.hilt", name = "hilt-common", version.ref = "hiltCommon" }
+work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltWork" }
+lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycleService" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
